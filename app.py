@@ -1,10 +1,10 @@
-from flask import Flask
+2from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return "Hello World in WWW - Deployed on OpenShift Sandbox!"
+    return "Hello World in WWW - Deployed on OpenShift Sandbox! -ver2"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
