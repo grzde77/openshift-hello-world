@@ -1,5 +1,5 @@
 # Use an official Python 3.9 image (Alpine-based is smaller)
-FROM python:3.9-alpine
+FROM python:3.9
 
 # Create a working directory inside the container
 WORKDIR /usr/src/app
